@@ -1,0 +1,7 @@
+body{font-family:system-ui,Arial,sans-serif;margin:24px;line-height:1.4}
+h1{margin:0 0 12px}
+ul{padding-left:18px}
+.chip{display:inline-block;padding:2px 8px;margin:0 6px 6px 0;border:1px solid #bbb;border-radius:12px}
+.pass{border-color:#3a3}.fail{border-color:#c33}
+pre{white-space:pre-wrap;background:#fafafa;border:1px solid #eee;padding:8px}
+.small{font-size:12px;color:#666}

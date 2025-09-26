@@ -1,0 +1,22 @@
+{
+  "date": "2024-05-11",
+  "plant_id": "Development Environment",
+  "summary": "Added Homebrew package manager with analytics notice and PATH instructions.",
+  "notes": [
+    "Homebrew has enabled anonymous aggregate formulae and cask analytics.",
+    "Read the analytics documentation (and how to opt-out) here: https://docs.brew.sh/Analytics",
+    "No analytics data has been sent yet.",
+    "Homebrew is run entirely by unpaid volunteers. Please consider donating: https://github.com/Homebrew/brew#donations",
+    "Next steps include adding Homebrew to PATH using the recommended shellenv command and reviewing brew help for usage."
+  ],
+  "commands": [
+    "eval \"$(/opt/homebrew/bin/brew shellenv)\"  # Apple Silicon",
+    "eval \"$(/usr/local/bin/brew shellenv)\"   # Intel"
+  ],
+  "derived": {
+    "ppfd_avg": 900,
+    "vpd_leaf_kpa": 1.1,
+    "uniformity": 0.9,
+    "cv_pct": 10
+  }
+}
